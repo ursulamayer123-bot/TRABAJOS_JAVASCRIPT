@@ -10,7 +10,25 @@ switch (operacion){
     break
     case "resta":
         resultado = n1 - n2;
-        console
+        console.log("El resultado de la resta es: " + resultado);
+    break
+    case "multiplicacion":
+        resultado = n1 * n2;
+        console.log("El resultado de la multiplicacion es " + resultado);
+    break
+    case "division":
+        if (n2 !== 0){
+            resultado = n1 / n2;
+            console.log ("El resultado de la division es: " + resultado);
+        }else {
+            console.log ("Error: NO se puede dividir por 0.")
+        
+        }
+    break
+
+     default:
+          console.log("Operacion no válida.")
+
 }
     
 
