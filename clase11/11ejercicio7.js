@@ -1,7 +1,7 @@
 const prompt = require ('prompt-sync')();
 let n1= parseFloat (prompt ("Indicar un numero: "));
 let n2 = parseFloat (prompt ("Indicar un segundo numero: "));
-let operacion = prompt ("Indicar (suma, resta, division o multiplicacion): ").toLowercase();
+let operacion = prompt ("Indicar (suma, resta, division o multiplicacion): ").toLowerCase();
 let resultado;
 switch (operacion){
     case "suma":
