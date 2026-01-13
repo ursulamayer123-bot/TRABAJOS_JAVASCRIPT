@@ -6,4 +6,4 @@ for (let i = 0 ; i < cantidadEstudiantes ; i++) {
 
 }
 console.log("Notas de los estudiantes");
-console.log(notas)
+console.log(notas);
