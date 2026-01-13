@@ -6,7 +6,7 @@ let ganaste = false;
 for (let i = 1; i <= 3; i++) {
     let intento = parseInt(prompt("Intento " + i + ": ¿Que número es?: "));
     if (intento === numeroSecreto) {
-        console.log("¡FELICITACIONES! ¡Adivinaste el número!");   
+        console.log("¡FELICITACIONES! Adivinaste el número.");   
        ganaste = true; 
        
         break; 
